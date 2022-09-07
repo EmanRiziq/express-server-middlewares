@@ -21,7 +21,7 @@ app.get('/square', validateNum(), (req, res) => {
 app.use(errorHandler);
 
 function start(port) {
-    app.listen(port || 3000, () => console.log(`server up a wake`));
+    app.listen(port, () => console.log(`server up a wake`));
 }
 
 module.exports = {
