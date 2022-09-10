@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1662549246955" clover="3.2.0">
-  <project timestamp="1662549246955" name="All files">
-    <metrics statements="24" coveredstatements="21" conditionals="6" coveredconditionals="1" methods="7" coveredmethods="4" elements="37" coveredelements="26" complexity="0" loc="24" ncloc="24" packages="3" files="3" classes="3"/>
+<coverage generated="1662813291834" clover="3.2.0">
+  <project timestamp="1662813291835" name="All files">
+    <metrics statements="24" coveredstatements="21" conditionals="4" coveredconditionals="1" methods="7" coveredmethods="4" elements="35" coveredelements="26" complexity="0" loc="24" ncloc="24" packages="3" files="3" classes="3"/>
     <package name="express-server-middlewares">
-      <metrics statements="15" coveredstatements="14" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="2"/>
+      <metrics statements="15" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
       <file name="server.js" path="/home/eman/401course/express-server-middlewares/server.js">
-        <metrics statements="15" coveredstatements="14" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <metrics statements="15" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -19,7 +19,7 @@
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="0" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
       </file>
     </package>
