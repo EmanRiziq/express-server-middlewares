@@ -15,7 +15,7 @@ describe( 'API server', () => {
         expect( res.text ).toEqual( 'Hello World' );
     } );
     it( 'Square route works', async () => {
-        const res = await request.get( '/square?query=9' );
+        const res = await request.get( '/square?num=9' );
         expect( res.status ).toEqual( 200 );
         expect( res.text ).toEqual( 'the square of 9 is 81' );
     } );

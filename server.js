@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 
 app.get('/square', validateNum(), (req, res) => {
     const data = req.squarenum;
-    res.status(200).send(`the square of ${req.query.query} is ${data}`);
+    res.status(200).send(`the square of ${req.query.num} is ${data}`);
 })
 
 app.use(errorHandler);
